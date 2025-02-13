@@ -1,6 +1,6 @@
 server {
     location / {
-        proxy_pass http://localhost:7070;
+        proxy_pass http://localhost:9090;
     }
 
     location /images/ {
